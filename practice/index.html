@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Version 1 of TodoList</title>
+</head>
+
+
+<body>
+
+<h1> Todo List By JsrL </h1>
+
+
+<div>
+
+<button onclick="handlers.toggleAll()">Toggle All</button>
+</div>
+
+<div>
+	<button onclick="handlers.addTodos()">Add</button>
+	<input id = "addTodoText" type="text" >
+</div>
+<div>
+	<button onclick="handlers.editTodos()">Edit</button>
+	<input id = "editTodosPosition" type="number">
+	<input id = "editTodosChangeText" type="text">
+</div>
+
+<div>
+	<button onclick = 'handlers.toggleDone()'>Done</button>
+	<input id = "toggleDonePosition" type="number">
+</div>
+
+<ul>
+	
+</ul>
+
+<script type="text/javascript" src = js/todo.js></script>
+
+</body>
+
+</html>
